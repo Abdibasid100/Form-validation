@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  background-color: #fff;
+  width: 80%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 3px 10px 10px 4px rgba(0, 0, 0, 0.3);
+}
+.header {
+  background-color: #f1f0f0;
+  padding: 5px 0;
+}
+.header h2 {
+  font-size: 20px;
+}
+.form-control {
+  margin: 10px 0;
+  position: relative;
+}
+.form-control label {
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+.form-control input {
+  border: 1px solid #555;
+  padding: 8px 10px;
+  width: 100%;
+  outline: 0;
+  margin-bottom: 2px;
+  border-radius: 6px;
+}
+.form-control i {
+  position: absolute;
+  top: 43%;
+  right: 0;
+  padding-right: 10px;
+  display: none;
+}
+#error {
+  color: red;
+}
+#correct {
+  color: green;
+  padding-top: 10px;
+}
+small {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgb(110, 52, 110);
+  color: #fff;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: purple;
+}
+
+.form-control.error input {
+  border: 2px solid #f00404;
+}
+.form-control.success input {
+  border: 2px solid #0ec40e;
+}
